@@ -27,9 +27,15 @@ namespace Unity.FPS.UI
             }
         }
 
+        [Tooltip("Retry button: load the last campaign level played instead of SceneName (falls back to SceneName)")]
+        public bool LoadLastPlayedLevel;
+
         public void LoadTargetScene()
         {
-            SceneManager.LoadScene(SceneName);
+            if (LoadLastPlayedLevel && !string.IsNullOrEmpty(CampaignProgress.LastPlayedLevel))
+                SceneManager.LoadScene(CampaignProgress.LastPlayedLevel);
+            else
+                SceneManager.LoadScene(SceneName);
         }
     }
 }

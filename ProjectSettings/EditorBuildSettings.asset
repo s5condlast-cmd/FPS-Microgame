@@ -9,6 +9,18 @@ EditorBuildSettings:
     path: Assets/FPS/Scenes/IntroMenu.unity
     guid: 56e3faabc5bb30f49a68bb8f1292f988
   - enabled: 1
+    path: Assets/FPS/Scenes/Campaign/Level_1.unity
+    guid: a8b910227cbf4a7429856b3d7ec22298
+  - enabled: 1
+    path: Assets/FPS/Scenes/Campaign/Level_2.unity
+    guid: 28ee5aa8d19b3c64294c76c601eef626
+  - enabled: 1
+    path: Assets/FPS/Scenes/Campaign/Level_3.unity
+    guid: 7b60a7ffac018d04aa6e37403fda2b15
+  - enabled: 1
+    path: Assets/FPS/Scenes/Campaign/Level_Boss.unity
+    guid: 0babb874566527e4391c6519436d88f5
+  - enabled: 1
     path: Assets/FPS/Scenes/WinScene.unity
     guid: 037d06fbede2b4041a843d9ee6fe750c
   - enabled: 1

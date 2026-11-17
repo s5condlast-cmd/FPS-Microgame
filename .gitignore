@@ -115,3 +115,7 @@ InitTestScene*.unity*
 
 # Claude Code local settings
 .claude/settings.local.json
+
+# Build archives
+*.rar
+*.zip
